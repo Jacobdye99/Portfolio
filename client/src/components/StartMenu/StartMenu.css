@@ -1,0 +1,16 @@
+.StartMenuDiv {
+    display: flex;
+    background-color: #c3c3c3;
+    position: fixed;
+    bottom: 40px;
+    left: 2px;
+}
+
+.StartLinks {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-style: solid;
+    text-decoration: none;
+}

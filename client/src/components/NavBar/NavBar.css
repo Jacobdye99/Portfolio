@@ -23,7 +23,7 @@
     position: relative;
     /* right: 10; */
     left: 44.3%;
-    top: 7px;
+    top: 5px;
     border-style: inset;
     padding-top: 6px;
     padding-left: 10px;
@@ -42,7 +42,6 @@
     /* right: 10; */
     right: 45%;
     top: 2px;
-    border-style: outset;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -50,4 +49,14 @@
 .NavLinks {
     margin-right: 10px;
     color: black;
+    position: relative;
+    bottom: 1px;
+}
+
+.Clocktext {
+    font-family: "W95FA";
+    /* margin-top: -10px; */
+    margin-bottom: -10px;
+    position: relative;
+    bottom: 5.6px;
 }
