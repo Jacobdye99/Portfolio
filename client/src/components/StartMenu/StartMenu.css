@@ -1,0 +1,35 @@
+.StartMenuDiv {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #c3c3c3;
+    position: fixed;
+    bottom: 40px;
+    left: 2px;
+}
+
+.StartLinks {
+    padding-top: 10px;
+    padding-bottom: 2px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-style: solid;
+    border-width: 1px;
+    text-decoration: none;
+    color: black;
+    font-family: "W95FA";
+}
+
+.StartLinks:hover {
+    background-color: #02017e;
+    color: white;
+}
+
+.StartImg {
+    margin-top: 3px;
+    margin-left: -85px;
+    margin-right: 10px;
+}
+
+.StartText2 {
+    margin-top: -25px;
+}

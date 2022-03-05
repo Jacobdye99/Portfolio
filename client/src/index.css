@@ -2,12 +2,23 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif, "W95FA";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 400px;
+  margin-bottom: 100px;
+  clear: both;
+  background-color: #00807F;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    monospace , "W95FA";
+}
+
+@font-face {
+  font-family: W95FA;
+  src: local("W95FA"),
+  url("./Assets/Fonts/W95FA/W95FA.otf") format("truetype");
+  font-weight: bold;
 }

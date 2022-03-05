@@ -1,0 +1,19 @@
+.winImg {
+    margin-top: 3px;
+    margin-left: -5px;
+    width: 20px;
+    height: 20px; 
+}
+
+.StartDiv {
+    font-family: "W95FA";
+    display: inline-flex;
+    max-height: 20px;
+}
+
+.StartText {
+    /* height: 20px; */
+    /* border-style: none; */
+    /* padding-bottom: 10px; */
+    margin-top: 5px;
+}
