@@ -3,9 +3,7 @@ import Clock from 'react-live-clock';
 import Start from '../Start/Start';
 import { FiGithub } from 'react-icons/fi'
 import {AiOutlineLinkedin} from 'react-icons/ai'
-// import { useState } from 'react'
-// import StartMenu from '../StartMenu/StartMenu';
-// import Popup from '../Popup/Popup';
+
 
 export default function NavBar(props) {
     
