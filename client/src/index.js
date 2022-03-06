@@ -7,11 +7,11 @@ import {BrowserRouter as Router} from 'react-router-dom'
 import './Assets/Fonts/W95FA/W95FA.otf'
 
 ReactDOM.render(
-  <Router>
   <React.StrictMode>
+  <Router>
     <App />
-  </React.StrictMode>
-  </Router>,
+  </Router>
+  </React.StrictMode>,
   document.getElementById('root')
 );
 
