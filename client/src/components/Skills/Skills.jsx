@@ -3,7 +3,6 @@ import { useDrag } from 'react-use-gesture'
 import { useState } from 'react'
 export default function Skills(props) {
   const [position, setPosition] = useState({ x: 0, y: 0 })
-  const [id, setId] = useState("")
     const bindWindowPos = useDrag((params) => {
         setPosition({
             x: params.offset[0],
