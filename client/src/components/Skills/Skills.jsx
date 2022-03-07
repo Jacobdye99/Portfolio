@@ -11,12 +11,20 @@ export default function Skills(props) {
         })
     })
   return (
-    <div className='Window' {...bindWindowPos()} id={id}
+    <div className='Window' {...bindWindowPos()} id="Skills"
     style={{
         top: position.y,
         left: position.x,
     }}
-    onClick={() => setId("focus")}>
+    onClick={() => {
+      document.getElementById("Resume").style.zIndex = 1
+      document.getElementById("Skills").style.zIndex = 2
+      document.getElementById("Projects").style.zIndex = 1
+      document.getElementById("CC").style.zIndex = 1
+      document.getElementById("GT").style.zIndex = 1
+      document.getElementById("PTB").style.zIndex = 1
+      document.getElementById("Reviewio").style.zIndex = 1
+    }}>
         <div className='TopBar'>
             <button onClick={() => props.setSkills(false)} className="X">X</button>
             <img src="https://github.com/Jacobdye99/Portfolio/blob/main/client/src/Assets/Images/artage-io-48181_1646541247.png?raw=true" alt="Resume" className='topBarIcon'/>

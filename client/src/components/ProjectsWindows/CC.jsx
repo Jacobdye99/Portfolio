@@ -12,11 +12,20 @@ export default function CC(props) {
         })
     })
   return (
-    <div className='Window' {...bindWindowPos()}
+    <div className='Window' {...bindWindowPos()} id="CC"
     style={{
         top: position.y,
         left: position.x,
-    }}>
+    }}
+    onClick={() => {
+      document.getElementById("Resume").style.zIndex = 1
+      document.getElementById("Skills").style.zIndex = 1
+      document.getElementById("Projects").style.zIndex = 1
+      document.getElementById("CC").style.zIndex = 4
+      document.getElementById("GT").style.zIndex = 1
+      document.getElementById("PTB").style.zIndex = 1
+      document.getElementById("Reviewio").style.zIndex = 1
+  }}>
         <div className='TopBar'>
             <button onClick={() => props.setCC(false)} className="X">X</button>
             <img src="https://github.com/Jacobdye99/Portfolio/blob/dev/client/src/Assets/Images/artage-io-48180_1646631279.png?raw=true" alt="Resume" className='topBarIcon'/>

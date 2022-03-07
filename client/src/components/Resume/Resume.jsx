@@ -2,12 +2,12 @@
 import '../Window/Window.css'
 import './Resume.css'
 import Pdf from '../../Assets/Images/Jacob_Dye_Resume (1).pdf'
-import { useState, useRef } from 'react'
+import { useState } from 'react'
 import { useDrag } from 'react-use-gesture'
 
 export default function ResumeIcon(props) {
     const [position, setPosition] = useState({ x: 0, y: 50 })
-    const ref = useRef()
+    
     const bindWindowPos = useDrag((params) => {
         setPosition({
             x: params.offset[0],
@@ -15,12 +15,20 @@ export default function ResumeIcon(props) {
         })
     })
     return (
-    <div className='Window' {...bindWindowPos()}
+    <div className='Window' {...bindWindowPos()} id="Resume"
     style={{
         top: position.y,
         left: position.x,
     }}
-    >
+    onClick={() => {
+        document.getElementById("Resume").style.zIndex = 2
+      document.getElementById("Skills").style.zIndex = 1
+      document.getElementById("Projects").style.zIndex = 1
+      document.getElementById("CC").style.zIndex = 1
+      document.getElementById("GT").style.zIndex = 1
+      document.getElementById("PTB").style.zIndex = 1
+      document.getElementById("Reviewio").style.zIndex = 1
+    }} >
         <div className='TopBar' 
         >
             <button onClick={() => props.setResume(false)} className="X">X</button>
