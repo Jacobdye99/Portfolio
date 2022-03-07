@@ -5,6 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter as Router} from 'react-router-dom'
 import './Assets/Fonts/W95FA/W95FA.otf'
+  
+  
 
 ReactDOM.render(
   <React.StrictMode>

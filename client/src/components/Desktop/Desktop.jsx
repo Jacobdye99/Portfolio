@@ -1,4 +1,4 @@
-import { useState } from "react"
+
 import './Desktop.css'
 
 export default function Desktop(props) {
@@ -24,7 +24,7 @@ export default function Desktop(props) {
                     props.setProjects(true)
                     props.setCls2("")
         }}>
-            <img src="https://github.com/Jacobdye99/Portfolio/blob/main/client/src/Assets/Images/artage-io-48173_1646541164.png?raw=true" alt="Projects" className="Icons"/>
+            <img src="https://github.com/Jacobdye99/Portfolio/blob/dev/client/src/Assets/Images/artage-io-48180_1646631279.png?raw=true" alt="Projects" className="Icons"/>
             <h3 className="IconText">Projects</h3>
         </div>
         <div className={props.cls3} onClick={() => {

@@ -53,6 +53,10 @@
     bottom: 1px;
 }
 
+.NavImgs {
+    width: 20px;
+}
+
 .Clocktext {
     font-family: "W95FA";
     /* margin-top: -10px; */

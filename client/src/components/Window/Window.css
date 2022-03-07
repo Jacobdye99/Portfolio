@@ -6,6 +6,7 @@
     margin-right: 25vw;
     border-style: solid;
     background-color: #ffffff;
+    z-index: 1;
 }
 
 .fileName {
@@ -45,3 +46,4 @@
     left: 3px;
     top: 5px;
 }
+
