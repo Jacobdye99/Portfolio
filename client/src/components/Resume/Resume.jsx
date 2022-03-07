@@ -1,5 +1,7 @@
 import React from 'react'
 import '../Window/Window.css'
+import './Resume.css'
+import Pdf from '../../Assets/Images/Jacob_Dye_Resume (1).pdf'
 
 export default function ResumeIcon(props) {
     return (
@@ -16,9 +18,9 @@ export default function ResumeIcon(props) {
                 I'm very skilled with React, Ruby, and CSS.
                 I'm very eager to learn as much as I can about software engineering and eventually teach myself how to create video games. 
                 I love working on a team and taking on any challenge that comes my way.
-                I learned a lot at General Assembly and I'm new enough that I can be moulded into the engineer you're company needs.
+                I learned a lot at General Assembly and I'm new enough that I can be moulded into the engineer your company needs.
             </p>
-
+            <a href={Pdf} target="_blank" rel='noreferrer' className='ResumeLink'>My Resume</a>
         </div>
     </div>
     )

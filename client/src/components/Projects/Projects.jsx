@@ -1,4 +1,4 @@
-
+import './Projects.css'
 
 export default function Projects(props) {
   return (
@@ -8,7 +8,10 @@ export default function Projects(props) {
             <img src="https://github.com/Jacobdye99/Portfolio/blob/main/client/src/Assets/Images/artage-io-48173_1646541164.png?raw=true" alt="Resume" className='topBarIcon'/>
             <h4 className='fileName'>Projects</h4>
         </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut aspernatur iusto voluptatum nulla soluta deleniti sequi ipsum doloribus exercitationem nemo quae excepturi, sit, est quaerat expedita, praesentium dicta unde ab?</p>
+        <div>
+        <h2>These are some of my projects:</h2>
+
+        </div>
     </div>
   )
 }
