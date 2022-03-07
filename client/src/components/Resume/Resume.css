@@ -1,25 +1,37 @@
 .PicOfMe {
     width: 350px;
-    display: flex;
+    display: flexbox;
     margin-left: 20px;
+    margin-right: 20px;
     margin-bottom: 40px;
     border-radius: 10px;
+    /* position: absolute; */
 }
 
 .InnerText {
     display: block;
-    position: absolute;
+    /* position: absolute; */
     left: 400px;
     top: 100px;
     right: 20px;
     /* border-style: solid; */
     padding-bottom: 20px;
+    /* margin-bottom: 10px; */
     font-size: large;
+    margin: 20px;
     /* margin: -200px; */
 }
 
+@media (max-width: 800px) {
+    .PicOfMe {
+        width: 150px;
+    }
+}
+
 .ResumeLink {
-    position: absolute;
-    top: 250px;
-    right: 280px;
+    /* position: relative;
+    top: -10px;
+    right: -0px; */
+    margin-bottom: 20px;
+    padding-bottom: 20px;
 }

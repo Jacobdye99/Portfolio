@@ -10,10 +10,19 @@ export default function PTB(props) {
         })
     })
   return (
-    <div className='Window' {...bindWindowPos()}
+    <div className='Window' {...bindWindowPos()} id="PTB"
     style={{
         top: position.y,
         left: position.x,
+    }}
+    onClick={() => {
+        document.getElementById("Resume").style.zIndex = 1
+        document.getElementById("Skills").style.zIndex = 1
+        document.getElementById("Projects").style.zIndex = 1
+        document.getElementById("CC").style.zIndex = 1
+        document.getElementById("GT").style.zIndex = 1
+        document.getElementById("PTB").style.zIndex = 6
+        document.getElementById("Reviewio").style.zIndex = 1
     }}>
         <div className='TopBar'>
             <button onClick={() => props.setPTB(false)} className="X">X</button>

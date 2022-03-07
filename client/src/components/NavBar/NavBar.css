@@ -64,3 +64,70 @@
     position: relative;
     bottom: 5.6px;
 }
+
+
+@media (max-width: 1700px) {
+    .Start {
+        display: inline-block;
+        justify-content: right;
+        /* align-items: stretch; */
+        /* text-align: right; */
+        height: 25px;
+        position: relative;
+        width: 50px;
+        /* right: 10; */
+        left: -38%;
+        top: 2px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .Clock {
+        display: inline-block;
+        /* justify-content: right; */
+        /* align-items: stretch; */
+        text-align: center;
+        height: 20px;
+        position: relative;
+        /* right: 10; */
+        left: 38%;
+        top: 5px;
+        border-style: inset;
+        padding-top: 6px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: -5px;
+    }
+}
+
+@media (max-width: 850px) {
+    .Start {
+        display: inline-block;
+        justify-content: right;
+        /* align-items: stretch; */
+        /* text-align: right; */
+        height: 25px;
+        position: relative;
+        width: 50px;
+        /* right: 10; */
+        left: -22%;
+        top: 2px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .Clock {
+        display: inline-block;
+        /* justify-content: right; */
+        /* align-items: stretch; */
+        text-align: center;
+        height: 20px;
+        position: relative;
+        /* right: 10; */
+        left: 23%;
+        top: 5px;
+        border-style: inset;
+        padding-top: 6px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: -5px;
+    }
+}
