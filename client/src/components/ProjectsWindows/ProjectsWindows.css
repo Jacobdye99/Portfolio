@@ -1,0 +1,18 @@
+.ProjectLinks {
+    display: inline-flex;
+    margin: 10px;
+}
+
+.IndividualLinks {
+    margin: 10px;
+}
+
+.Description {
+    margin-top: 50px;
+}
+
+.LinkText {
+    text-decoration: none;
+    margin-top: 0px;
+    color: black;
+}

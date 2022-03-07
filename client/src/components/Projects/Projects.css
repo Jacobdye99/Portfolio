@@ -1,0 +1,14 @@
+.Folders {
+    display: inline-flex;
+    gap: 30px;
+    margin: 20px;
+}
+.fileText {
+    margin-top: -5px;
+    margin-left: 10px;
+}
+
+.Clicked2 {
+    background-color: #02017e;
+    color: white;
+}
