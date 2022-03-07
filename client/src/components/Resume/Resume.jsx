@@ -1,12 +1,28 @@
-import React from 'react'
+
 import '../Window/Window.css'
 import './Resume.css'
 import Pdf from '../../Assets/Images/Jacob_Dye_Resume (1).pdf'
+import { useState, useRef } from 'react'
+import { useDrag } from 'react-use-gesture'
 
 export default function ResumeIcon(props) {
+    const [position, setPosition] = useState({ x: 0, y: 50 })
+    const ref = useRef()
+    const bindWindowPos = useDrag((params) => {
+        setPosition({
+            x: params.offset[0],
+            y: params.offset[1]
+        })
+    })
     return (
-    <div className='Window'>
-        <div className='TopBar'>
+    <div className='Window' {...bindWindowPos()}
+    style={{
+        top: position.y,
+        left: position.x,
+    }}
+    >
+        <div className='TopBar' 
+        >
             <button onClick={() => props.setResume(false)} className="X">X</button>
             <img src="https://github.com/Jacobdye99/Portfolio/blob/main/client/src/Assets/Images/artage-io-48175_1646541195.png?raw=true" alt="Resume" className='topBarIcon'/>
             <h4 className='fileName'>About Me</h4>

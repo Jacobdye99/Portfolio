@@ -4,6 +4,7 @@
   background-color: #00807F;
   /* border-style: solid; */
   overflow: visible;
+  /* position: fixed; */
   height: 99vh;
   margin-bottom: -100vh;
 }

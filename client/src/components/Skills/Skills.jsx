@@ -1,8 +1,22 @@
 import './Skills.css'
-
+import { useDrag } from 'react-use-gesture'
+import { useState } from 'react'
 export default function Skills(props) {
+  const [position, setPosition] = useState({ x: 0, y: 0 })
+  const [id, setId] = useState("")
+    const bindWindowPos = useDrag((params) => {
+        setPosition({
+            x: params.offset[0],
+            y: params.offset[1]
+        })
+    })
   return (
-    <div className='Window'>
+    <div className='Window' {...bindWindowPos()} id={id}
+    style={{
+        top: position.y,
+        left: position.x,
+    }}
+    onClick={() => setId("focus")}>
         <div className='TopBar'>
             <button onClick={() => props.setSkills(false)} className="X">X</button>
             <img src="https://github.com/Jacobdye99/Portfolio/blob/main/client/src/Assets/Images/artage-io-48181_1646541247.png?raw=true" alt="Resume" className='topBarIcon'/>

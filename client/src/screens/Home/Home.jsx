@@ -22,6 +22,9 @@ export default function Home(props) {
   const [gt, setGT] = useState(false)
   const [reviewio, setReviewio] = useState(false) 
 
+
+  
+
   return (
     <div className='fullDiv'>
       <div className='Windows Icons'>
@@ -44,7 +47,11 @@ export default function Home(props) {
         </div>
         <div className='Windows'>
           <Popup trigger={resume}>
-            <ResumeIcon setResume={setResume} mousePos={props.mousePos}/>
+            <ResumeIcon
+            setResume={setResume}
+            
+            
+            />
           </Popup>
           <Popup trigger={projects}>
             <Projects 
@@ -57,22 +64,31 @@ export default function Home(props) {
             setGT={setGT}
             reviewio={reviewio}
             setReviewio={setReviewio}
+            
             />
           </Popup>
           <Popup trigger={skills}>
-            <Skills setSkills={setSkills} />
+            <Skills 
+            setSkills={setSkills}
+          
+            />
           </Popup>
           <Popup trigger={cc}>
-            <CC setCC={setCC}/>
+            <CC setCC={setCC}
+            
+            />
           </Popup>
           <Popup trigger={gt}>
-            <GT setGT={setGT}/>
+            <GT setGT={setGT}
+            />
           </Popup>
           <Popup trigger={ptb}>
-            <PTB setPTB={setPTB}/>
+            <PTB setPTB={setPTB}
+            />
           </Popup>
           <Popup trigger={reviewio}>
-            <Reviewio setReviewio={setReviewio}/>
+            <Reviewio setReviewio={setReviewio}
+            />
           </Popup>
         </div>
         <div onClick={() => {

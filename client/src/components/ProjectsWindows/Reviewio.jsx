@@ -1,8 +1,20 @@
-import React from 'react'
+import { useState } from 'react'
+import { useDrag } from 'react-use-gesture'
 
 export default function Reviewio(props) {
+  const [position, setPosition] = useState({ x: 0, y: 0 })
+    const bindWindowPos = useDrag((params) => {
+        setPosition({
+            x: params.offset[0],
+            y: params.offset[1]
+        })
+    })
   return (
-    <div className='Window'>
+    <div className='Window' {...bindWindowPos()}
+    style={{
+        top: position.y,
+        left: position.x,
+    }}>
         <div className='TopBar'>
             <button onClick={() => props.setReviewio(false)} className="X">X</button>
             <img src="https://github.com/Jacobdye99/Portfolio/blob/dev/client/src/Assets/Images/artage-io-48180_1646631279.png?raw=true" alt="Resume" className='topBarIcon'/>
