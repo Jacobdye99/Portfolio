@@ -3,9 +3,12 @@
   font-family: "W95FA";
   background-color: #00807F;
   /* border-style: solid; */
-  overflow: visible;
+  overflow: hidden;
   /* position: fixed; */
   height: 99vh;
   margin-bottom: -100vh;
+  width: 99vh;
+  max-width: 100vh;
+
 }
 

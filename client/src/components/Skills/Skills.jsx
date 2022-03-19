@@ -17,7 +17,7 @@ export default function Skills(props) {
     }}
     onClick={() => {
       document.getElementById("Resume").style.zIndex = 1
-      document.getElementById("Skills").style.zIndex = 2
+      document.getElementById("Skills").style.zIndex = 3
       document.getElementById("Projects").style.zIndex = 1
       document.getElementById("CC").style.zIndex = 1
       document.getElementById("GT").style.zIndex = 1

@@ -24,7 +24,7 @@ export default function Projects(props) {
     onClick={() => {
       document.getElementById("Resume").style.zIndex = 1
       document.getElementById("Skills").style.zIndex = 1
-      document.getElementById("Projects").style.zIndex = 4
+      document.getElementById("Projects").style.zIndex = 6
       document.getElementById("CC").style.zIndex = 1
       document.getElementById("GT").style.zIndex = 1
       document.getElementById("PTB").style.zIndex = 1
