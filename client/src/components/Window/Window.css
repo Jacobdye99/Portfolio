@@ -1,11 +1,12 @@
 .Window {
     display: block;
     position: relative;
+    top: 20vh;
+    left: 20vh;
     margin-left: 25vw;
     margin-right: 25vw;
     border-style: solid;
     background-color: #ffffff;
-    z-index: 10;
     
 }
 
