@@ -1,6 +1,8 @@
 .fullDiv {
-    background-color:  #00807F;
-    /* font-family: "W95FA"; */
-    /* height: 90vh; */
-    /* background-color: green; */
+    background-image: url("https://i.imgur.com/kah0h8J.jpg");
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-position: center center;
+ background-size: 40% auto;
+ background-color: black;
 }
