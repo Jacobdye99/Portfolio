@@ -8,11 +8,17 @@ body {
   min-height: 400px;
   margin-bottom: 100px;
   clear: both;
-  background-color: #00807F;
+  background-color: black;
   width: 150vh;
   max-width: 150vh;
+  background-image: url("https://i.imgur.com/kah0h8J.jpg");
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-position: center center;
+ background-size: 40% auto;
   /* overflow: hidden; */
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
