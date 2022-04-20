@@ -1,6 +1,8 @@
-/* .LoadDiv {
-    margin-top: 50px;
-} */
+.LoadDiv {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
 
 .startScreen {
     position: fixed;
