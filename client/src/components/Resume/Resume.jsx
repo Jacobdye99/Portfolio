@@ -36,7 +36,7 @@ export default function ResumeIcon(props) {
             <h4 className='fileName'>About Me</h4>
         </div>
         <div>
-            <img src='https://i.imgur.com/6kojmZJ.jpg?1' alt='Jacob Dye' className='PicOfMe'/>
+            <img src='https://github.com/Jacobdye99/Portfolio/blob/main/client/src/Assets/Images/IMG_7879copy.jpg?raw=true' alt='Jacob Dye' className='PicOfMe'/>
             <p className='InnerText'>
                 Hi I'm Jacob Dye and I'm a full stack software engineer. 
                 I'm very skilled with React, Ruby, and CSS.
