@@ -5,7 +5,7 @@ export default function Loadup() {
     <div className="LoadDiv">
         <script>
         {setTimeout(function(){
-            window.location.href = 'http://jacobdye.com/home';
+            window.location.href = 'http://jacobedye.com/home';
          }, 3000)}
         </script>
         <div>
